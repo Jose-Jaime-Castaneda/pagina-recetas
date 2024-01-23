@@ -8,8 +8,8 @@ function App() {
   return (
     <Routes>
       <Route path='/' element={<MainComponent />} />
-      <Route path="/recipeList" element={<RecipeList />}></Route>
-      <Route path="/recipeDetails/:id" element={<RecipeDetails />}></Route>
+      <Route path="/recipeList" element={<RecipeList />} />
+      <Route path="/recipeDetails/:id" element={<RecipeDetails />} />
     </Routes>
   );
 }
