@@ -1,5 +1,4 @@
-import { getAllRecipesURL } from "../../constants/constants";
-import { getOneRecipeURL } from "../../constants/constants";
+import { getAllRecipesURL, getOneRecipeURL } from "../../constants/constants";
 
 export async function getAllRecipes() {
   return fetch(getAllRecipesURL)

@@ -1,7 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import "./styles/recipeList.css";
-import { useNavigate } from "react-router-dom";
 
 import { getAllRecipes } from "../../utils/API/apis";
 import { handleVolverInicio } from "../../utils/buttonHandlers/handlers";
