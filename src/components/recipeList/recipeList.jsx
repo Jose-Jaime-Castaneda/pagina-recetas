@@ -36,7 +36,7 @@ function RecipeList() {
         {recipes.map((recipe, index) => (
           <Link
             to={`/recipeDetails/${recipe.id}`}
-            key={index}
+            key={recipe.id}
             className="cardLink"
           >
             <li

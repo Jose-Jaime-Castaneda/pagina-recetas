@@ -42,7 +42,7 @@ function RecipeDetails() {
           {recipeDetail.ingredients && recipeDetail.ingredients.length > 0 ? (
             <ul className="ingredientsList">
               {recipeDetail.ingredients.map((ingredient, index) => (
-                <li key={index}>{ingredient}</li>
+                <li key={id}>{ingredient}</li>
               ))}
             </ul>
           ) : (
@@ -72,7 +72,7 @@ function RecipeDetails() {
         {recipeDetail.instructions && recipeDetail.instructions.length > 0 ? (
           <ul className="intructionsList">
             {recipeDetail.instructions.map((instruction, index) => (
-              <li key={index}>{instruction}</li>
+              <li key={id}>{instruction}</li>
             ))}
           </ul>
         ) : (
