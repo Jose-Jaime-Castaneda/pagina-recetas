@@ -1,5 +1,6 @@
 import { getAllRecipesURL, getOneRecipeURL } from "../../constants/constants";
 
+// Obtiene todas las recetas
 export async function getAllRecipes() {
   return fetch(getAllRecipesURL)
     .then((res) => {
@@ -15,7 +16,7 @@ export async function getAllRecipes() {
       throw new Error(`Error en la solicitud: ${error.message}`);
     });
 }
-
+// Obtiene una receta
 export async function getOneRecipe(id) {
   return fetch(getOneRecipeURL + id)
     .then((res) => {
