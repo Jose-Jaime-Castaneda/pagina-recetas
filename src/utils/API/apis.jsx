@@ -2,7 +2,7 @@ import { getAllRecipesURL } from "../../constants/constants";
 import { getOneRecipeURL } from "../../constants/constants";
 
 export async function getAllRecipes() {
-  return await fetch(getAllRecipesURL)
+  return fetch(getAllRecipesURL)
     .then((res) => {
       if (!res.ok) {
         throw new Error(
@@ -18,7 +18,7 @@ export async function getAllRecipes() {
 }
 
 export async function getOneRecipe(id) {
-  return await fetch(getOneRecipeURL + id)
+  return fetch(getOneRecipeURL + id)
     .then((res) => {
       if (!res.ok) {
         throw new Error(`Error en la solicitud: ${res.status}`);
