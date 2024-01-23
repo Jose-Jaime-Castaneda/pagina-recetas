@@ -1,11 +1,8 @@
-export function handleContinuar(navegador) {
-  navegador("/recipeList");
-}
-
+// Función para ir a la página inicial
 export function handleVolverInicio(navegador) {
   navegador("/");
 }
-
-export function handleVolverLista(navegador) {
+// Función para ir a la lista de recetas
+export function handleLista(navegador) {
   navegador("/recipeList");
 }

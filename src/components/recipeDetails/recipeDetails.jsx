@@ -2,10 +2,11 @@ import React from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import "./styles/recipeDetails.css";
 
-import { handleVolverLista } from "../../utils/buttonHandlers/handlers";
+import { handleLista } from "../../utils/buttonHandlers/handlers";
 import { getOneRecipe } from "../../utils/API/apis";
 import Button from "../button/buttonSimple";
 
+// En este componente pintamos la información de una receta
 function RecipeDetails() {
   const navegador = useNavigate();
   const { id } = useParams();
@@ -25,7 +26,7 @@ function RecipeDetails() {
   return (
     <article className="detailContainer">
       <div className="buttonContainer buttonVolver">
-        <Button label={"Volver"} onClick={() => handleVolverLista(navegador)} />
+        <Button label={"Volver"} onClick={() => handleLista(navegador)} />
       </div>
       <div
         style={{

@@ -4,6 +4,7 @@ import MainComponent from './components/mainComponent/main';
 import RecipeList from './components/recipeList/recipeList';
 import RecipeDetails from "./components/recipeDetails/recipeDetails";
 
+// Aquí se declaran las rutas para el proyecto
 function App() {
   return (
     <Routes>

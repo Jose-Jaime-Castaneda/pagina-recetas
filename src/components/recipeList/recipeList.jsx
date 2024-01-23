@@ -7,6 +7,7 @@ import { handleVolverInicio } from "../../utils/buttonHandlers/handlers";
 
 import Button from "../button/buttonSimple";
 
+//En este componente se pintan todas recetas
 function RecipeList() {
   const [recipes, setRecipes] = React.useState([]);
 

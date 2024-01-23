@@ -2,7 +2,7 @@ import React from "react";
 import "./styles/main.css";
 import { useNavigate } from "react-router-dom";
 
-import { handleContinuar } from "../../utils/buttonHandlers/handlers";
+import { handleLista } from "../../utils/buttonHandlers/handlers";
 
 import Button from "../button/buttonSimple";
 
@@ -17,7 +17,7 @@ function MainComponent() {
         pintarlos.
       </p>
       <div className="buttonContainer">
-        <Button label="Empezar a Cocinar" onClick={() => handleContinuar(navegador)} />
+        <Button label="Empezar a Cocinar" onClick={() => handleLista(navegador)} />
       </div>
     </header>
   );
