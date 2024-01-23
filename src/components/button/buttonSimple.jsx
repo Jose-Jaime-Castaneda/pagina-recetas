@@ -1,4 +1,4 @@
-import React from "react";
+//import React from "react";
 // Este componenete es un botón reutilizable
 function Button(props) {
   const { label, onClick } = props;
