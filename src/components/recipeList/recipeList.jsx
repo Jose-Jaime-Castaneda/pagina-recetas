@@ -13,9 +13,9 @@ function RecipeList() {
 
   React.useEffect(() => {
     getAllRecipes()
-      .then((recipes) => {
-        console.log(recipes);
-        setRecipes(recipes);
+      .then((recipeLsit) => {
+        console.log(recipeLsit);
+        setRecipes(recipeLsit);
       })
       .catch((error) => {
         console.log("Error al obtener los datos:", error);
