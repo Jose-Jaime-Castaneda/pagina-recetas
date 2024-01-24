@@ -41,7 +41,7 @@ function RecipeDetails() {
           <p className="label">Ingredients: </p>
           {recipeDetail.ingredients && recipeDetail.ingredients.length > 0 ? (
             <ul className="ingredientsList">
-              {recipeDetail.ingredients.map((ingredient, index) => (
+              {recipeDetail.ingredients.map((ingredient) => (
                 <li key={id}>{ingredient}</li>
               ))}
             </ul>
@@ -71,7 +71,7 @@ function RecipeDetails() {
         <p className="label">Instructions: </p>
         {recipeDetail.instructions && recipeDetail.instructions.length > 0 ? (
           <ul className="intructionsList">
-            {recipeDetail.instructions.map((instruction, index) => (
+            {recipeDetail.instructions.map((instruction) => (
               <li key={id}>{instruction}</li>
             ))}
           </ul>

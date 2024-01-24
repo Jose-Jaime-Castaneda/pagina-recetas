@@ -33,7 +33,7 @@ function RecipeList() {
       </div>
       <h2>Recipe List</h2>
       <ul className="list">
-        {recipes.map((recipe, index) => (
+        {recipes.map((recipe) => (
           <Link
             to={`/recipeDetails/${recipe.id}`}
             key={recipe.id}
