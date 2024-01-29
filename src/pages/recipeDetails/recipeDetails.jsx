@@ -4,7 +4,7 @@ import "./styles/recipeDetails.css";
 
 import { handleLista } from "../../utils/buttonHandlers/handlers";
 import { getOneRecipe } from "../../utils/API/apis";
-import Button from "../button/buttonSimple";
+import Button from "../../components/button/buttonSimple";
 
 // En este componente pintamos la información de una receta
 function RecipeDetails() {

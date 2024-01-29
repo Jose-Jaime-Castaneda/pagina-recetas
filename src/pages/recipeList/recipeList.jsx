@@ -5,7 +5,7 @@ import "./styles/recipeList.css";
 import { getAllRecipes } from "../../utils/API/apis";
 import { handleVolverInicio } from "../../utils/buttonHandlers/handlers";
 
-import Button from "../button/buttonSimple";
+import Button from "../../components/button/buttonSimple";
 
 //En este componente se pintan todas recetas
 function RecipeList() {

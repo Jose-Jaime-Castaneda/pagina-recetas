@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 
 import { handleLista } from "../../utils/buttonHandlers/handlers";
 
-import Button from "../button/buttonSimple";
+import Button from "../../components/button/buttonSimple";
 // Este es el componenete main
 function MainComponent() {
   const navegador = useNavigate();
