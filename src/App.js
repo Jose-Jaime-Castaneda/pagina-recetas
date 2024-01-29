@@ -1,8 +1,8 @@
 import { Routes, Route } from "react-router-dom";
 
-import MainComponent from './components/mainComponent/main';
-import RecipeList from './components/recipeList/recipeList';
-import RecipeDetails from "./components/recipeDetails/recipeDetails";
+import MainComponent from './pages/mainComponent/main';
+import RecipeList from './pages/recipeList/recipeList';
+import RecipeDetails from "./pages/recipeDetails/recipeDetails";
 
 // Aquí se declaran las rutas para el proyecto
 function App() {
